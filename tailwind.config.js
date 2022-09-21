@@ -4,7 +4,16 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   content: ['./pages/**/*.{js, jsx}', './components/**/*.{js, jsx}'],
   theme: {
-    screens: {},
+    screens: {
+      tablet: '640px',
+      // => @media (min-width: 640px) { ... }
+
+      laptop: '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      desktop: '1280px'
+      // => @media (min-width: 1280px) { ... }
+    },
     colors: {
       black: '#000000',
       'light-black': '#1E1E1E',

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import LogoContainer from '../components/logo-container'
 import LaptopContainer from '../components/laptop-container'
+import SendMeMessage from '../components/send-me-message'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
 
       <LogoContainer />
       <LaptopContainer />
+      <SendMeMessage />
     </div>
   )
 }

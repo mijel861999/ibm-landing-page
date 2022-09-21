@@ -13,7 +13,7 @@ const LogoContainer = () => {
   return (
     <div className="w-full flex justify-center mt-16">
       <div className="w-200px">
-        <Image width={500} height={184} src={IbmLogo} />
+        <Image width={350} height={128.8} src={IbmLogo} />
       </div>
     </div>
   )

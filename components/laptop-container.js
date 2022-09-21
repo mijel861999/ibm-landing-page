@@ -13,7 +13,7 @@ const LaptopContainer = () => {
         al siguiente nivel
       </p>
       <div className="mt-5">
-        <Image width={400} height={354} src={Thinkpad} />
+        <Image width={356} height={315} src={Thinkpad} />
       </div>
     </div>
   )
