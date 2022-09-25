@@ -4,6 +4,7 @@ import LaptopContainer from '../components/laptop-container'
 import SendMeMessage from '../components/send-me-message'
 import Advantages from '../components/advantages'
 import NewProducts from '../components/new-products'
+import Footer from '../components/footer'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <SendMeMessage />
       <Advantages />
       <NewProducts />
+      <Footer />
     </div>
   )
 }
