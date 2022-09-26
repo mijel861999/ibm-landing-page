@@ -11,7 +11,7 @@ const SendMeMessage = () => {
     <div className="w-full flex flex-col justify-center items-center mt-16">
       <div className="laptop:w-2/5 w-3/5 border border-black-500 flex justify-center px-5 py-3 rounded-md">
         <input
-          className="w-full outline-none"
+          className="w-full outline-none bg-white"
           placeholder="Dirección de correo electrónico"
           value={email}
           onChange={e => setEmail(e.target.value)}
